@@ -34,11 +34,11 @@ var map = {
 		15
 	],
 	"../pages/login/login.module": [
-		278,
+		275,
 		14
 	],
 	"../pages/menu/change-pass/change-pass.module": [
-		275,
+		276,
 		13
 	],
 	"../pages/menu/menu.module": [
@@ -46,47 +46,47 @@ var map = {
 		12
 	],
 	"../pages/menu/setting/setting.module": [
-		276,
+		278,
 		11
 	],
 	"../pages/money/merchandise-trans/merchandise-trans.module": [
-		283,
+		279,
 		10
 	],
 	"../pages/money/money-his/money-his.module": [
-		281,
+		280,
 		9
 	],
 	"../pages/money/money-info/money-info.module": [
-		282,
+		281,
 		8
 	],
 	"../pages/money/money-trans/money-trans.module": [
-		279,
+		282,
 		7
 	],
 	"../pages/money/money-with-draw/money-with-draw.module": [
-		280,
+		283,
 		6
 	],
 	"../pages/money/money.module": [
-		286,
+		284,
 		5
 	],
 	"../pages/order/order.module": [
-		284,
+		285,
 		1
 	],
 	"../pages/orderbook/orderbook.module": [
-		288,
+		286,
 		4
 	],
 	"../pages/tabs/tabs.module": [
-		285,
+		287,
 		3
 	],
 	"../pages/user/user.module": [
-		287,
+		288,
 		2
 	]
 };
@@ -441,20 +441,20 @@ AppModule = __decorate([
                     { loadChildren: '../pages/home/home.module#HomePageModule', name: 'HomePage', segment: 'home', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/home/list-buy-sell/list-buy-sell.module#ListBuySellPageModule', name: 'ListBuySellPage', segment: 'list-buy-sell', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/home/list-contract/list-contract.module#ListContractPageModule', name: 'ListContractPage', segment: 'list-contract', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/menu/change-pass/change-pass.module#ChangePassPageModule', name: 'ChangePassPage', segment: 'change-pass', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/menu/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/money/money-trans/money-trans.module#MoneyTransPageModule', name: 'MoneyTransPage', segment: 'money-trans', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/money/money-with-draw/money-with-draw.module#MoneyWithDrawPageModule', name: 'MoneyWithDrawPage', segment: 'money-with-draw', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/menu/change-pass/change-pass.module#ChangePassPageModule', name: 'ChangePassPage', segment: 'change-pass', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/menu/setting/setting.module#SettingPageModule', name: 'SettingPage', segment: 'setting', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/money/merchandise-trans/merchandise-trans.module#MerchandiseTransPageModule', name: 'MerchandiseTransPage', segment: 'merchandise-trans', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/money/money-his/money-his.module#MoneyHisPageModule', name: 'MoneyHisPage', segment: 'money-his', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/money/money-info/money-info.module#MoneyInfoPageModule', name: 'MoneyInfoPage', segment: 'money-info', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/money/merchandise-trans/merchandise-trans.module#MerchandiseTransPageModule', name: 'MerchandiseTransPage', segment: 'merchandise-trans', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/tabs/tabs.module#MxvPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/money/money-trans/money-trans.module#MoneyTransPageModule', name: 'MoneyTransPage', segment: 'money-trans', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/money/money-with-draw/money-with-draw.module#MoneyWithDrawPageModule', name: 'MoneyWithDrawPage', segment: 'money-with-draw', priority: 'low', defaultHistory: [] },
                     { loadChildren: '../pages/money/money.module#MoneyPageModule', name: 'MoneyPage', segment: 'money', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/user/user.module#UserPageModule', name: 'UserPage', segment: 'user', priority: 'low', defaultHistory: [] },
-                    { loadChildren: '../pages/orderbook/orderbook.module#OrderbookPageModule', name: 'OrderbookPage', segment: 'orderbook', priority: 'low', defaultHistory: [] }
+                    { loadChildren: '../pages/order/order.module#OrderPageModule', name: 'OrderPage', segment: 'order', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/orderbook/orderbook.module#OrderbookPageModule', name: 'OrderbookPage', segment: 'orderbook', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/tabs/tabs.module#MxvPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
+                    { loadChildren: '../pages/user/user.module#UserPageModule', name: 'UserPage', segment: 'user', priority: 'low', defaultHistory: [] }
                 ]
             }),
         ],
@@ -523,7 +523,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"E:\DA\Khoa\MxvMobile\src\app\app.html"*/'<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"E:\DA\Khoa\MxvMobile\src\app\app.html"*/
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({template:/*ion-inline-start:"D:\DA\MxvMobile\src\app\app.html"*/'<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"D:\DA\MxvMobile\src\app\app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
@@ -680,9 +680,8 @@ SharedModule = __decorate([
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return API_URL; });
-// export const API_URL = 'http://localhost:1740/api';
-// export const API_URL = 'http://localhost:1740/api';
-var API_URL = 'http://125.212.254.113:2222/api';
+var API_URL = 'http://125.212.253.105:5555/api';
+// export const API_URL = 'http://  12.254.113:2222/api';
 //# sourceMappingURL=config.js.map
 
 /***/ })
